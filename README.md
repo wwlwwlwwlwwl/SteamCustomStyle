@@ -38,8 +38,9 @@ body {
 ```
 
 <h1 id="chinese">中文版本</h1>
+
 ## 自定义化的Steam库主界面
-![look like this](.img/steamUI.jpg "UI")
+![look like this](.img/steamUI.jpg "UI")  
 ![Game info page](.img/gameUI.jpg "UI")
 ##特色
 - 可以自定义字体

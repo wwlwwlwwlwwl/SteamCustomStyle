@@ -1,0 +1,496 @@
+/**
+  字体文件 如果要使用自定义字体就将下面的src的url改成字体的位置
+ */
+@font-face {
+    font-family: CustomFont;
+    src: url(./XHei_Square.TTC);
+}
+
+/**
+  全局效果 如果想给所有模块添加效果请添加到这里
+ */
+* {
+    font-family: CustomFont!important;
+    background: 0!important;
+    border: none!important;
+    margin: 0;
+    padding: 0;
+}
+
+/**
+  设置背景图片
+ */
+body {
+    background-image: url(bg.jpg)!important;
+    background-repeat: no-repeat!important;
+    background-size: 100%!important;
+}
+
+/**
+  详情页顶部图片
+*/
+.sharedappdetailsheader_HeaderBackgroundImage_1IX7F {
+	display: none;
+}
+
+/**
+  左侧栏拖拽块 会导致无法调整左侧栏大小
+*/
+.library_LibraryWindowDivider_276E6 {
+    display: none;
+}
+
+/**
+  游戏详情页背景
+*/
+.appdetails_Container_2iE-7 {
+	box-sizing: border-box;
+    display: block;
+    backdrop-filter: blur(4px);
+    background: linear-gradient(to bottom, rgba(39, 44, 53, 0.1) 0%, rgba(39, 44, 53, 0.7) 82px, rgba(39, 44, 53, 0.3) 80%, rgba(39, 44, 53, 0) 100%);
+    z-index: 0;
+}
+
+/**
+  左侧栏
+*/
+.gamelistbar_Container_3x1Hk {
+    box-sizing: border-box;
+    display: block;
+    backdrop-filter: blur(2px);
+    background: linear-gradient(to bottom, rgba(39, 44, 53, 0.1) 0%, rgba(39, 44, 53, 0.7) 82px, rgba(39, 44, 53, 0.3) 80%, rgba(39, 44, 53, 0) 100%);
+    z-index: 0;
+}
+
+/**
+  游戏属性菜单
+*/
+.PopupFullWindow {
+    box-sizing: border-box;
+    display: block;
+    backdrop-filter: blur(4px);
+    background: linear-gradient(to bottom, rgba(39, 44, 53, 0.1) 0%, rgba(39, 44, 53, 0.7) 82px, rgba(39, 44, 53, 0.3) 80%, rgba(39, 44, 53, 0) 100%);
+    z-index: 0;
+}
+
+/**
+  主页游戏卡片
+*/
+.appportrait_LibraryItemBox_WYgDg {
+    opacity: 0.75;
+    border-radius: 20px;
+}
+
+/**
+  游戏卡片下方大小显示
+ */
+.appportrait_LibraryItemBoxSubscript_1LJqx {
+    box-shadow: none !important;
+    background-color: rgba(230, 230, 250, 0.15) !important;
+    border-radius: 20px !important;
+}
+/**
+  开始按钮
+*/
+.appdetailsplaysection_ActionSection_2zxzS {
+    background-color: rgba(230, 230, 250, 0.15) !important;
+    box-shadow: 0 0 30px #00000025;
+    border-radius: 10px;
+
+    backdrop-filter: blur(10px);
+    background: linear-gradient(to bottom, rgba(39, 44, 53, 0.1) 0%, rgba(39, 44, 53, 0.7) 82px, rgba(39, 44, 53, 0.3) 80%, rgba(39, 44, 53, 0) 100%);
+    transition: 0.5s;
+}
+
+.appdetailsplaysection_ActionSection_2zxzS:hover {
+    transform: scale(1.1);
+    background-color: rgba(0, 200, 0, 0.15) !important;
+}
+
+/**
+  设置按钮等
+*/
+.appdetailsplaysection_MenuButton_3qDWQ {
+    background-color: rgba(230, 230, 250, 0.15) !important;
+    box-shadow: 0 0 30px #00000025;
+    border-radius: 10px;
+
+    backdrop-filter: blur(10px);
+    background: linear-gradient(to bottom, rgba(39, 44, 53, 0.1) 0%, rgba(39, 44, 53, 0.7) 82px, rgba(39, 44, 53, 0.3) 80%, rgba(39, 44, 53, 0) 100%);
+    transition: 1s !important;
+}
+
+/**
+  设置按钮划入
+ */
+.appdetailsplaysection_MenuButton_3qDWQ:hover {
+    transform: scale(1.3);
+    background-color: rgba(30, 144, 255, 0.25) !important;
+}
+
+/**
+  设置按钮 长按
+ */
+.appdetailsplaysection_MenuButton_3qDWQ:active {
+    transform: scale(1.5);
+    background-color: rgba(230, 230, 230, 0.6) !important;
+}
+
+/** 
+  右键菜单
+*/
+.contextmenu_contextMenu_PP7LM {
+    background-color: rgba(230, 230, 250, 0.05) !important;
+    box-shadow: 0 0 30px #00000025;
+    border-radius: 10px;
+
+    backdrop-filter: blur(20px) !important;
+    background: linear-gradient(to bottom, rgba(39, 44, 53, 0.1) 0%, rgba(39, 44, 53, 0.7) 82px, rgba(39, 44, 53, 0.3) 80%, rgba(39, 44, 53, 0) 100%);
+}
+
+/**
+  展开式菜单
+ */
+.contextmenu_ContextMenuFocusContainer_1S6CC .dropdown_DialogDropDownMenu_30wJO {
+    background-color: rgba(230, 230, 250, 0.05) !important;
+    box-shadow: 0 0 30px #00000025;
+    border-radius: 10px !important;
+
+    backdrop-filter: blur(20px) !important;
+    background: linear-gradient(to bottom, rgba(39, 44, 53, 0.1) 0%, rgba(39, 44, 53, 0.7) 82px, rgba(39, 44, 53, 0.3) 80%, rgba(39, 44, 53, 0) 100%);
+}
+
+/**
+ 悬浮提示框
+ */
+.tooltip_TextToolTip_2FxbH {
+    border-radius: 10px !important;
+    backdrop-filter: blur(20px) !important;
+    background: linear-gradient(to bottom, rgba(39, 44, 53, 0.1) 0%, rgba(39, 44, 53, 0.7) 82px, rgba(39, 44, 53, 0.3) 80%, rgba(39, 44, 53, 0) 100%);
+}
+
+/**
+ 悬浮提示框
+ */
+.tooltip_ToolTipCustom_3XGRk {
+    border-radius: 10px !important;
+    backdrop-filter: blur(20px) !important;
+    background: linear-gradient(to bottom, rgba(39, 44, 53, 0.1) 0%, rgba(39, 44, 53, 0.7) 82px, rgba(39, 44, 53, 0.3) 80%, rgba(39, 44, 53, 0) 100%);
+}
+
+/**
+ 高级搜索按钮
+ */
+.gamelistsearchbar_AdvancedSearchContainer_vCCmY {
+    display: none !important;
+}
+
+/**
+ 左上角搜索框
+ */
+.gamelistsearchbar_SearchInput_12vo5 {
+    background-color: rgba(230, 230, 230, 0.15) !important;
+    border-radius: 10px !important;
+}
+
+/**
+ 左上角主页按钮
+ */
+.gamelistbar_GameListHomeAndSearch_2TKEa {
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: rgba(230, 230, 230, 0.15) !important;
+    border-radius: 10px !important;
+    transition: 1s;
+}
+
+/**
+ 主页按钮划入
+ */
+.gamelistbar_GameListHomeAndSearch_2TKEa:hover {
+    background-color: rgba(30, 144, 255, 0.25) !important;
+    transform: scale(1.05);
+}
+
+/**
+ 您的收藏 按钮
+ */
+.gamelisthome_CollectionIcon_nC-pL {
+    background-color: rgba(230, 230, 230, 0.15) !important;
+    border-radius: 10px !important;
+}
+
+/**
+ 您的收藏 按钮绘制
+ */
+.gamelisthome_CollectionIconBox_2tyaV {
+    background: rgba(30, 144, 255, 0.25) !important;
+    border-radius: 3px;
+}
+
+/**
+  头像 圆角
+*/
+.steamavatar_avatar_3h-QR {
+    border-radius: 50% !important;
+    box-shadow: 2 2 12px #00000025;
+}
+
+/**
+  成就 圆角
+*/
+.appdetailsachievementssection_Icon_zcasg {
+    border-radius: 20%;
+    box-shadow: 2 2 12px #00000025;
+}
+
+/**
+  截图 圆角
+*/
+.appactivityday_ImageWrapper_rRIYi {
+    border-radius: 5px;
+    box-shadow: 2 2 12px #00000025;
+}
+
+/**
+  自己的截图
+*/ 
+.screenshots_ClickableScreenshotImg_21yM8  {
+    border-radius: 5px;
+    box-shadow: 2 2 12px #00000025;
+}
+
+/**
+  左侧栏logo圆角
+*/
+.gamelistentry_GameIcon_ga1hy .libraryassetimage_Image_24_Au {
+    border-radius: 50%;
+}
+
+/**
+  右键属性菜单中的按钮颜色 
+*/
+.DialogButton {
+    background-color: rgba(30, 30, 30, 0.2) !important;
+    border-radius: 10%;
+    box-shadow: 2 2 12px #00000025;
+}
+
+/**
+ 基本全都是详情菜单上色
+ */
+.DialogCheckbox_Container {
+    background-color: rgba(30, 30, 30, 0.2) !important;
+    border-radius: 10%;
+    box-shadow: 2 2 12px #00000025;
+}
+
+.DialogTextInputBase  {
+    background-color: rgba(30, 30, 30, 0.2) !important;
+    border-radius: 5px;
+    box-shadow: 2 2 12px #00000025;
+}
+
+.DialogDropDown {
+    background-color: rgba(30, 30, 30, 0.2) !important;
+    border-radius: 5px;
+    box-shadow: 2 2 12px #00000025;
+}
+
+.ModalPosition_Content {
+    backdrop-filter: blur(10px);
+    background: linear-gradient(to bottom, rgba(39, 44, 53, 0.1) 0%, rgba(39, 44, 53, 0.7) 82px, rgba(39, 44, 53, 0.3) 80%, rgba(39, 44, 53, 0) 100%);
+    border-radius: 5px;
+}
+
+/**
+ 确认框 背景
+ */ 
+.DialogButton {
+    border-radius: 10px !important;
+}
+
+/**
+ 确认按钮
+ */
+.Primary {
+    transition: 2s;
+}
+
+/**
+ 确认 划入
+ */
+.Primary:hover {
+    transform: scale(0.95);
+    background-color: rgba(200, 0, 0, 0.3) !important;
+}
+
+/**
+  确认 长按
+ */
+.Primary:active {
+    transform: scale(1.1);
+    background-color: rgba(200, 0, 0, 0.4) !important;
+}
+
+/**
+ 取消按钮
+ */
+.Secondary {
+    transition: 2s;
+}
+
+/**
+ 取消按钮 划入
+ */
+.Secondary:hover {
+    transform: scale(0.95);
+    background-color: rgba(30, 144, 255, 0.25) !important;
+}
+
+/**
+  取消按钮 长按
+ */
+.Secondary:active {
+    transform: scale(1.1);
+    background-color: rgba(30, 144, 255, 0.4) !important;
+}
+
+/**
+ 游戏详情页下面的事件(解锁成就等) 外边框
+ */
+.appactivityday_EventBody_NEMXh {
+    border-radius: 20px;
+    background-color: rgba(230, 230, 230, 0.15) !important;
+    backdrop-filter: blur(20px);
+    background: linear-gradient(to bottom, rgba(39, 44, 53, 0.1) 0%, rgba(39, 44, 53, 0.7) 82px, rgba(39, 44, 53, 0.3) 80%, rgba(39, 44, 53, 0) 100%);
+    transition: 1s;
+}
+
+/**
+ 游戏详情页下面的事件 划入
+ */
+.appactivityday_EventBody_NEMXh:hover {
+    transform: scale(1.05);
+}
+
+/**
+ 官方推送栏
+ */
+.appactivityday_PartnerEvent_1AYE1 {
+    border-radius: 20px;
+    background-color: rgba(230, 230, 230, 0.15) !important;
+    backdrop-filter: blur(20px);
+    background: linear-gradient(to bottom, rgba(39, 44, 53, 0.1) 0%, rgba(39, 44, 53, 0.7) 82px, rgba(39, 44, 53, 0.3) 80%, rgba(39, 44, 53, 0) 100%);
+    transition: 1s;
+}
+
+/**
+ 发送动态框 样式
+ */
+.posttextentry_PostTextEntry_3x31A {
+    border-radius: 20px;
+    background-color: rgba(230, 230, 230, 0.1) !important;
+    backdrop-filter: blur(20px);
+    background: linear-gradient(to bottom, rgba(39, 44, 53, 0.1) 0%, rgba(39, 44, 53, 0.7) 82px, rgba(39, 44, 53, 0.3) 80%, rgba(39, 44, 53, 0) 100%);
+}
+
+/**
+ 官方推送栏 划入
+ */
+.appactivityday_PartnerEvent_1AYE1:hover {
+    transform: scale(1.05);
+}
+
+/**
+ 推送下面的评论
+ */
+.comment_thread_Comment_515RL {
+    border-radius: 20px;
+    background-color: rgba(230, 230, 230, 0.15) !important;
+    backdrop-filter: blur(20px);
+    background: linear-gradient(to bottom, rgba(39, 44, 53, 0.1) 0%, rgba(39, 44, 53, 0.7) 82px, rgba(39, 44, 53, 0.3) 80%, rgba(39, 44, 53, 0) 100%);
+}
+
+/**
+ 评论 划入
+ */
+.comment_thread_Comment_515RL:hover {
+    transform: scale(1.05);
+}
+
+/**
+ 发送评论按钮
+ */
+.posttextentry_PostButton_2JSyA {
+    background-color: rgba(230, 230, 230, 0.3) !important;
+    border-radius: 20px !important;
+}
+
+/**
+ 迷你个人资料
+ */
+.miniprofile_miniProfile_2QPdq {
+    border-radius: 20px !important;
+    backdrop-filter: blur(20px);
+    background: linear-gradient(to bottom, rgba(39, 44, 53, 0.1) 0%, rgba(39, 44, 53, 0.7) 82px, rgba(39, 44, 53, 0.3) 80%, rgba(39, 44, 53, 0) 100%);
+}
+
+/**
+ 迷你个人资料 头像
+ */
+.miniprofile_playerAvatar_36eQg {
+    border-radius: 50%;
+}
+
+/**
+ 迷你个人资料 头像框
+ */
+.miniprofile_Frame_2nPON {
+    display: none;
+}
+
+/**
+ Steam 创意工坊 推荐物品 图片
+ */
+.appdetailsworkshopsection_FeaturedItemImage_gh2rj {
+    border-radius: 10px;
+}
+
+/**
+ 设置按钮旁边那个详细信息 点进去之后的页面
+ */
+.appdetailsgameinfopanel_Container_2jPMy {
+    border-radius: 10px;
+    background-color: rgba(230, 230, 230, 0.3) !important;
+    backdrop-filter: blur(20px);
+}
+
+/**
+ 首页新情报速递 图片
+ */
+.libraryhomenewupdates_PartnerEventRowCapsule_MainImageContainer_SPz0i {
+    border-radius: 20px;
+    opacity: 0.75;
+}
+
+/**
+ 大多数元素背景阴影
+ */
+.appdetailssection_AppDetailsSection_2r4TK {
+    border-radius: 20px;
+    background-color: rgba(230, 230, 230, 0.1) !important;
+}
+
+
+/**
+阴影
+box-shadow: 0 0 12px #00000025;
+
+透明
+backdrop-filter: blur(4px);
+background: linear-gradient(to bottom, rgba(39, 44, 53, 0.1) 0%, rgba(39, 44, 53, 0.7) 82px, rgba(39, 44, 53, 0.3) 80%, rgba(39, 44, 53, 0) 100%);
+
+文字颜色
+color: red !important;
+*/
